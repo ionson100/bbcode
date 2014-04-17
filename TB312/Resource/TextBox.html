@@ -1,0 +1,91 @@
+﻿
+<noscript>
+    <style>
+        #bt-show {
+            display: none;
+        }
+        .HeaderTb312 {
+            display: none;
+        }
+    </style>
+</noscript>
+<div class="container-tb312">
+<div id="modal-tb" class="modal-tb" style="display: none">
+    <div id="modal-close" class ="modal-close">
+       <a href="#" onclick="$('#modal-tb').css('display','none')" style="cursor: pointer">Закрыть</a> 
+    </div>
+     <div id="modal-body" class ="modal-body"></div>
+</div>
+<table class="TextBoxScript">
+    <tr>
+        <td></td>
+    </tr>
+    <tr>
+        <td class="HeaderTb312">
+                  <input class="pbutton" type="button" value="B" style="font-weight:bold" name="b" title="Жирный" onclick="insertCode('[b]', '[/b]', 0)">
+                  <input class="pbutton" type="button" onclick="insertCode('[i]', '[/i]', 0)" title="Курсив" name="i" style="font-style:italic" value="I">
+                  <input class="pbutton" type="button" onclick="insertCode('[u]', '[/u]', 0)" title="Подчеркнутый текст" name="u" style="text-decoration:underline" value="U">
+                  <input class="pbutton" type="button" onclick="insertCode('[s]', '[/s]', 0)" title="Перечеркнутый текст" name="s" style="text-decoration : line-through;" value="S">
+                  <input class="pbutton" type="button" onclick="insertCode('[li]', '')" title="Оформить в виде списка" name="l" value="•">
+                  <input class="pbutton" type="button" onclick="insertCode('[url=]', '[/url]')" title="Вставить ссылку на другой сайт" accesskey="U" name="h" value="http://">
+
+                  <button id="src" class="pbutton" title="Выделение исходников" accesskey="S" name="c" type="button" onclick="showpanel(this)">
+                      <span>SRC</span>
+                  </button>
+                  <div id="scr-panel" class="context_src" style="display: none;" >
+                      <ul>
+                          #data#
+                      </ul>
+                  </div>
+                  <input class="pbutton" type="button" onclick="insertCode('[FIXED]', '[/FIXED]')" title="Выделить блок моноширинным шрифтом" name="f" value="FIX">
+                  <input type="button" onclick="insertCode('[quote автор]', '[/quote]')" title="Вставить цитату" accesskey="Q" name="q" class="pbutton" value="QUOTE">   
+                  <input class="pbutton" type="button" onclick="insertCode('[SIZE=1]', '[/SIZE]')" title="Размер шрифта" name="f1" value="1">
+                  <input class="pbutton" type="button" onclick="insertCode('[SIZE=2]', '[/SIZE]')" title="Размер шрифта" name="f2" value="2">
+                  <input class="pbutton" type="button" onclick="insertCode('[SIZE=3]', '[/SIZE]')" title="Размер шрифта" name="f3" value="3">
+                  <input class="pbutton" type="button" onclick="insertCode('[SIZE=4]', '[/SIZE]')" title="Размер шрифта" name="f4" value="4">
+                  <input class="pbutton" type="button" onclick="insertCode('[SIZE=5]', '[/SIZE]')" title="Размер шрифта" name="f5" value="5">
+                  <input class="pbutton" type="button" onclick="insertCode('[SUP]', '[/SUP]')" title="Суперскрипт" name="f6" value="sup">
+                  <input class="pbutton" type="button" onclick="insertCode('[SUB]', '[/SUB]')" title="Сабскрипт" name="f6" value="sub">
+                  <input class="pbutton" type="button" onclick="insertCode('[CSV]', '[/CSV]')" title="Оформить в виде таблицы. Значения разделяются запятыми." name="f7" value="CSV">
+            
+                  <button id="fcolor"    class="pbutton" title="Цвет шрифта" name="fcolor" type="button" onclick="panelClorShow()">
+                
+                      <span>COLOR</span>
+                  </button>
+                  <div id="color-panel" class="context_fcolor" style="display: none" >
+                      <ul>
+                          <li onmousedown="insertCode('[color=black]','[/color]')" style="color:black">Black</li>
+                          <li onmousedown="insertCode('[color=red]','[/color]')" style="color:red">Red</li>
+                          <li onmousedown="insertCode('[color=green]','[/color]')" style="color:green">Green</li>
+                          <li onmousedown="insertCode('[color=blue]','[/color]')" style="color:blue">Blue</li>
+                          <li onmousedown="insertCode('[color=yellow]','[/color]')" style="color:yellow">Yellow</li>
+                          <li onmousedown="insertCode('[color=purple]','[/color]')" style="color:purple">Purple</li>
+                          <li onmousedown="insertCode('[color=orange]','[/color]')" style="color:orange">Orange</li>
+                          <li onmousedown="insertCode('[color=teal]','[/color]')" style="color:teal">Teal</li>
+                          <li onmousedown="insertCode('[color=brown]','[/color]')" style="color:brown">Brown</li>
+                          <li onmousedown="insertCode('[color=gray]','[/color]')" style="color:gray"> Gray</li>
+                      </ul>
+                  </div>
+                    <input class="pbutton" type="button" onclick="insertCode('[FIXED]', '[/FIXED]')" title="Вставить картинку" name="f" value="IMG">
+
+
+
+        </td>
+    </tr>
+    <tr>
+        <td class="BodyTb312">
+            <textarea id="tb-core" class="tb-core"  aria-multiline="True" rows="2" cols="20"  name="#name#">#value#</textarea>
+        </td>
+    </tr>
+    <tr>
+        <td class="FooterTb312">
+            <input id="bt-show" type="submit" value="Предварительный просмотр" class="submit" onclick="preliminaryshow(); return false;" />
+            <input id="bt-save" type="submit" value="Сохранить" name="bt-save-tb312"class="submit" /></td>
+    </tr>
+</table>
+    </div>
+
+
+
+
+

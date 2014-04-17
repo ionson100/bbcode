@@ -1,0 +1,31 @@
+﻿@using TB312
+@model TextBox.Controllers.ModelTest
+@{
+    ViewBag.Title = "Домашняя страница";
+}
+
+<link href="../../TB12/Tb312.css" rel="stylesheet" />
+<link href="../../TB12/dp.SyntaxHighlighter/Styles/SyntaxHighlighter.css" rel="stylesheet" />
+<script src="../../TB12/tt.js"></script>
+<script src="../../TB12/Tb312.js"></script>
+
+<script src="../../TB12/dp.SyntaxHighlighter/Uncompressed/shCore.js"></script>
+<script src="../../TB12/dp.SyntaxHighlighter/Uncompressed/shBrushCpp.js"></script>
+<script src="../../TB12/dp.SyntaxHighlighter/Uncompressed/shBrushCSharp.js"></script>
+<script src="../../TB12/dp.SyntaxHighlighter/Uncompressed/shBrushCss.js"></script>
+<script src="../../TB12/dp.SyntaxHighlighter/Uncompressed/shBrushJScript.js"></script>
+<script src="../../TB12/dp.SyntaxHighlighter/Uncompressed/shBrushPhp.js"></script>
+<script src="../../TB12/dp.SyntaxHighlighter/Uncompressed/shBrushSql.js"></script>
+<script src="../../TB12/dp.SyntaxHighlighter/Uncompressed/shBrushXml.js"></script>
+
+
+
+@Html.DisplayTextFor(a => a.MessageOut)
+@using (Html.BeginForm("Index", "Home"))
+{
+    @Html.TextBoxScriptFor(a => a.Message)
+}
+
+
+
+
