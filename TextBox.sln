@@ -5,7 +5,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TB312", "TB312\TB312.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTextBoxFoMVC", "TestTextBoxMVC\TestTextBoxFoMVC.csproj", "{687DC5DF-D609-4089-912E-B55A7B11DF6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTextBoxWinForms", "TestTextBoxWinForms\TestTextBoxWinForms.csproj", "{85B19F11-45A5-44E0-B85C-F2178C9568E3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTextBoxWebForms", "TestTextBoxWebForms\TestTextBoxWebForms.csproj", "{85B19F11-45A5-44E0-B85C-F2178C9568E3}"
 EndProject
 Global
 	GlobalSection(SubversionScc) = preSolution
