@@ -1,0 +1,160 @@
+﻿.container-tb312 {
+    
+}
+/*таблица*/
+.TextBoxScript {
+   
+}
+/*Заголовок*/
+.HeaderTb312 {
+   
+            margin:0;
+            background-color:#e6e6e6;
+            padding: 5px;
+            border: 1px solid #bbb;
+   
+}
+/*тело*/
+.BodyTb312 {
+    
+}
+/*подвал*/
+.FooterTb312 {
+   
+    margin:0;
+    background-color:#e6e6e6;
+    padding: 5px;
+    border: 1px solid #bbb;
+    font-size: 12px;
+    text-align: right;
+   
+}
+/*textarea*/
+.tb-core {
+    width: 850px;
+    height: 200px;
+    min-width: 850px;
+   
+}
+
+
+/*панели меню*/
+.context_fcolor,.context_src {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border: 1px solid #BBBBBB;
+    border-radius: 5px 5px 5px 5px;
+   
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    position: absolute;
+    width: auto;
+}
+
+ .context_fcolor, .context_src {
+    display:none;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    position: absolute;
+    background: #eee;
+    border: 1px solid #bbb;
+    width:auto;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:5px;
+    font-size: 13px;
+}
+ .context_fcolor ul , .context_src ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ .context_fcolor li, .context_src li {
+    background-image:none;
+    margin:0;
+    padding:2px 5px;
+    cursor:pointer;
+}
+
+
+
+ .context_fcolor li:hover, .context_src li:hover  {
+    background-color:#5b81b4 !important;
+    color:#fff !important;
+}
+
+ .context_fcolor ul a{
+    display:block;
+    padding:1px 5px;
+    padding-left: 28px;
+    text-decoration: none;
+    color: #000;
+    background-repeat: no-repeat;
+}
+
+ /*кнопки панелей*/
+ .pbutton, .submit {
+    background: url("/fade-butt.png") repeat-x scroll 0 -2px transparent;
+    cursor: pointer;
+    height: 22px;
+    margin: 1px;
+    padding: 1px 6px;
+    position: relative;
+   
+     border-width: 0;
+}
+
+ /*блок предварительного показа*/
+ .modal-close {
+    background-color: #F0FFFF;
+}
+ /*область показа превью*/
+ .modal-body {
+   
+}
+ .modal-tb {
+    
+ }
+ .quote {
+	border-collapse:collapse;
+	border: solid 1px #888;
+	margin :10px;
+    background-color:#efefff;
+}
+
+ .quote td, .quote th {
+	    text-align:left;
+        font-size:11px;
+	}
+ 
+ .quote th {
+     background-color:#ddd;
+ 	
+ 	padding:4px;
+ }
+ 
+ .quote td {
+    
+ 	padding:7px;
+ }
+ .csv-table {
+ border: 1px solid #000000;
+}
+
+ .csv-table td {
+     text-align:center;
+     font-size:11px;
+     background: bisque;
+     padding:7px; 
+      border: 1px solid #000000;
+     
+ }
+ 
+ .csv-table th {
+     background-color:#ddd;
+ 	padding:4px;
+     text-align: center;
+      border: 1px solid #000000;
+ }
+
+	
+    
